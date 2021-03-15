@@ -1,6 +1,8 @@
 # Checky-app
 Checky - an Android application developed by one person, far from Java programming, but who really needed this functionality.
 
+[Ссылка на статью на Habr](https://habr.com/ru/post/547200/ "Ссылка на статью на Habr")
+
 You can:
 1. Use custom text for switches
 2. Change the number of displayed switches
