@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="-18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_compat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:width="360dp"
+                android:checked="false"
+                android:text="@string/switch1"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_compat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:width="360dp"
+                android:text="@string/switch2"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_compat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:width="360dp"
+                android:text="@string/switch3"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_compat4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:width="360dp"
+                android:text="@string/switch4"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_compat5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:width="360dp"
+                android:text="@string/switch5"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_compat6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:width="360dp"
+                android:text="@string/switch6"
+                android:textSize="30sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_compat7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:width="360dp"
+                android:text="@string/switch_compat7"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_compat8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:width="360dp"
+                android:text="@string/switch_compat9"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="234dp">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_compat10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:width="360dp"
+                    android:text="@string/switch6_check"
+                    android:textSize="42sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.15"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:width="360dp"
+                    android:background="#F6DD00"
+                    android:onClick="ResetButtonClick"
+                    android:text="@string/reset_btn"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.58"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <Button
+                    android:id="@+id/bt_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:text="@string/btn_settings"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.94"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.962" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Checky</string>
+    <string name="reset_btn" translatable="false">Сброс</string>
+    <string name="debug_text" translatable="false">Для отладки</string>
+    <string name="switch1" translatable="false">Выключил газ</string>
+    <string name="switch2" translatable="false">Выключил воду</string>
+    <string name="switch3" translatable="false">Покормил кошек</string>
+    <string name="switch4" translatable="false">Закрыл окна</string>
+    <string name="switch5" translatable="false">Выключил Интернет</string>
+    <string name="switch6_check" translatable="false">Уверен/-а ?</string>
+    <string name="switch6" translatable="false">Закрыл дверь</string>
+    <string name="authors_settings" >Автор: Баймухамедов Бахти | info@byfe.me</string>
+    <string name="Settings_title">Изменить поля</string>
+    <string name="Change_fields_btn">Применить</string>
+    <string name="hint_field1">Текст для первого поля</string>
+    <string name="hint_field2">Текст для второго поля</string>
+    <string name="hint_field3">Текст для третьего поля</string>
+    <string name="hint_field4">Текст для четвертого поля</string>
+    <string name="hint_field5">Текст для пятого поля</string>
+    <string name="hint_field6">Текст для шестого поля</string>
+    <string name="btn_back_text">Назад</string>
+    <string name="button_settings_page">Дополнительные</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="hint_field7">Текст для седьмого поля</string>
+    <string name="hint_field8">Текст для восьмого поля</string>
+    <string name="advanced_title">Global Settings</string>
+    <string name="Advanced_SaveBtn">Advanced_SaveBtn</string>
+    <string name="switch_compat9">Вынес мусор</string>
+    <string name="Advanced_settings_Title">Дополнительные настройки</string>
+    <string name="sixfields">6 полей</string>
+    <string name="sevenfields">7 полей</string>
+    <string name="eightfields">8 полей</string>
+    <string name="AdvSaveBtn">СОХРАНИТЬ</string>
+    <string name="FieldsCountTitle">Сколько полей использовать:</string>
+    <string name="hellotexthelp">Показывать этот текст на главной:</string>
+    <string name="hellotitlehint">Текст для главной страницы</string>
+    <string name="SetSwitchCompatBGonchecked">Измененять цвета фона переключателей</string>
+    <string name="ChangeBgswticheshelper">If On - action switches will change their background color when Switched On</string>
+    <string name="switch_compat7">Выключил везде свет</string>
+</resources>
